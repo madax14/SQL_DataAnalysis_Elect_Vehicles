@@ -1,4 +1,4 @@
-## Total reports
+-- Total reports
 SELECT
   COUNT(`Vehicle Location`) AS `Reports`,
   COUNT(DISTINCT Make) AS `Distinct_Make`,
@@ -7,7 +7,7 @@ FROM
   `electric-vehicles-us.Vehicle_population_US.Vehicles`;
 
 
-## Most popular EV in US
+-- Most popular EV in US
 SELECT
   `Model`,
   `Make`,
@@ -22,4 +22,13 @@ ORDER BY
 LIMIT
   10;
 
+
+-- Checking for missing values
+SELECT
+COUNT(*) AS `Total`,
+COUNT(`Make`) AS `Make_Count`,
+COUNT(`Model`) AS `Model_Cont`,
+COUNT(`Model Year`) AS `Model_year_Cont`
+FROM
+  `electric-vehicles-us.Vehicle_population_US.Vehicles`;
 
