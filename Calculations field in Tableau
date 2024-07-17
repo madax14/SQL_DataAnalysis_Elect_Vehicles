@@ -1,0 +1,8 @@
+## Calculations field in Tableau
+
+COUNT([Make]) - For counting how many vehicles.
+
+COUNTD([Make]) - For counting how many distincts vehicles makes there are.
+
+COUNTD([Model]) -  For counting how many distincts vehicles models there are. 
+
