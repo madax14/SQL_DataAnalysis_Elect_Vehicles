@@ -32,3 +32,16 @@ COUNT(`Model Year`) AS `Model_year_Cont`
 FROM
   `electric-vehicles-us.Vehicle_population_US.Vehicles`;
 
+
+-- EV that has most long range battery.
+SELECT
+  AVG(`Electric Range`) AS `Range`,
+  `Make`,
+  `Model`
+FROM
+  `electric-vehicles-us.Vehicle_population_US.Vehicles`
+GROUP BY
+  `Model`,
+  `Make`
+ORDER BY
+  `Range` DESC
