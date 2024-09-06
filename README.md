@@ -1,6 +1,7 @@
 # SQL_DataAnalysis_Elect_Vehicles
-A analysis of electric vehicle in WA USA.
+An analysis of electric vehicles in WA USA.
 
-Link for download the dataset:
-
+Data includes Battery Electric Vehicles and Plug-in Hybrid Electric Vehicles registered as of July 31, 2024.
+ 
+Link for downloading the dataset:
 https://catalog.data.gov/dataset/electric-vehicle-population-data
