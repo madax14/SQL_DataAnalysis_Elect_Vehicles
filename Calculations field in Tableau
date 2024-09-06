@@ -1,9 +1,11 @@
 ## Calculations field in Tableau
 
-COUNT([Make]) - For counting how many vehicles.
+COUNT([Make]) - To count how many vehicles there are.
 
-COUNTD([Make]) - For counting how many distincts vehicles makes there are.
+COUNTD([Make]) - For counting how many distinct vehicles makes there are.
 
-COUNTD([Model]) -  For counting how many distincts vehicles models there are. 
+COUNTD([Model]) -  This is used to count how many distinct vehicle models there are. 
 
 [Quantity] / TOTAL([Quantity]) - For percentage of the total.
+
+ROUND([Quantity]/[Total of All kind Vehicle WA]*100,2) - To calculate EV compared ALL Vehicles and round it.
